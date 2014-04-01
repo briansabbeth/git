@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory 
+		android:title="Settings"
+		android:key="first_category">
+		
+		<CheckBoxPreference 
+		    android:id="@+id/night_mode_checkbox"
+			android:key="night_mode_key"
+			android:summary="Enable or disable night mode"
+			android:title="Night Mode" 
+			android:defaultValue="false"	/>
+		
+        <ListPreference 
+			android:key="language_key"
+			android:summary="Choice of language mode"
+			android:title="Language Mode"
+            android:defaultValue="CH"
+            android:entries="@array/Languages"
+            android:entryValues="@array/LanguageValues"   /> 
+            
+        <EditTextPreference
+			android:key="time_usage_key"
+			android:title="7 Day Usage"
+			android:summary="A total of usage of 7 days." />
+        
+          
+            
+     
+
+	</PreferenceCategory>
+	
+</PreferenceScreen>

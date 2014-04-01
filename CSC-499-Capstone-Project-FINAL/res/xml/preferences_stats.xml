@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <PreferenceCategory 
+		android:title="Stats Settings"
+		android:key="stats_first_category">
+
+    <EditTextPreference
+		android:key="time_usage_key"
+		android:title="7 Day Usage"
+		android:summary="A total of usage of 7 days." />
+
+	</PreferenceCategory>
+	
+</PreferenceScreen>

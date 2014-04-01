@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+    <item android:id="@+id/action_check_updates"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/action_check_updates"
+          android:orderInCategory="4"
+          android:showAsAction="ifRoom" />
+    
+    <item 
+          android:title="@string/rewind_title"
+          android:id="@+id/action_rewind"
+          android:icon="@drawable/ic_action_rewind"
+          android:orderInCategory="5"
+          android:showAsAction="ifRoom" />
+    
+  
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_action_email"
+        android:title="@string/share"
+        android:showAsAction="always" />
+    
+    
+    <item
+        android:title="@string/Translation"
+        android:id="@+id/action_trans"
+        android:icon="@drawable/cart"
+        android:orderInCategory="1"
+        android:showAsAction="always"/> 
+        
+ 	<item
+        android:id="@+id/action_stats"
+        android:title="@string/stats_menu_string"
+        android:orderInCategory="1"
+        android:showAsAction="never"/> 
+ 
+
+</menu>

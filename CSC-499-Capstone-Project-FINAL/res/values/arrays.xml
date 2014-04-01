@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+		<string-array name="Languages">
+			<item name="EN">English</item>
+			<item name="CH">Chinese</item>
+			<item name="SP">Spanish</item>
+		</string-array>
+		
+		<string-array name="LanguageValues">
+			<item name="EN">EN</item>
+			<item name="CH">CH</item>
+			<item name="SP">SP</item>
+		</string-array>
+
+</resources>

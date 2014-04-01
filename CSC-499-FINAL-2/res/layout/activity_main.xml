@@ -1,0 +1,81 @@
+<android.support.v4.widget.DrawerLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+ <android.gesture.GestureOverlayView
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+		 android:id="@+id/gestureOverlayView1"
+		 android:layout_width="match_parent"
+		 
+		 android:layout_height="match_parent" 
+		 tools:context=".MainActivity">
+     
+
+
+    <LinearLayout 
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp" 
+        android:layout_gravity="start">
+
+
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5sp"
+        android:text="@string/startTime"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/hanziTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/instructionTextView"
+        android:layout_width="574dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:textSize="40sp" />
+
+</LinearLayout>
+
+</android.gesture.GestureOverlayView>
+
+   <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+ 
+   <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#666"
+        android:dividerHeight="1dp"
+        android:background="#333"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        />
+
+
+
+
+</android.support.v4.widget.DrawerLayout>
